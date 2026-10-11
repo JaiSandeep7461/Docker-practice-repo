@@ -1,0 +1,3 @@
+FROM ubuntu:24.04
+ARG APP_VERSION=1.0
+CMD ["printenv", "APP_VERSION"]
